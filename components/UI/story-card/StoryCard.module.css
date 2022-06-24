@@ -1,0 +1,11 @@
+.storycard {
+  background: #010100;
+  /* height: 47vh; */
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+/* > div */
+.storycard {
+  height: 100%;
+  padding: 70px 45px;
+}

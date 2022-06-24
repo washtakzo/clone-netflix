@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.8rem;
+  margin: 0 3rem;
+}
+
+.netflix {
+  height: 2rem;
+  width: 6.75rem;
+  fill: #e50914;
+}
+
+.header div {
+  display: inline-block;
+}

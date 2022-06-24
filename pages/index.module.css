@@ -1,0 +1,97 @@
+.indexpage {
+  background: #333;
+}
+
+.main-story-background {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.85),
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.9) 96%
+    ),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/8ee18735-ada3-45be-b383-a94701054bb9/421eb204-167a-4e06-b20c-bf9d55d06bb3/FR-fr-20220613-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+  /* background-image: ; */
+  background-position: center;
+  background-size: cover;
+}
+
+.ilustration-img {
+  position: relative;
+  display: block;
+  z-index: 2;
+  width: 100%;
+  margin: auto;
+}
+
+.video-container-tv {
+  position: absolute;
+  top: 20%;
+  left: 12.8%;
+  width: 80%;
+}
+
+.video-container-tv video {
+  width: 100%;
+}
+
+.download-banner {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
+  background: #010100;
+  bottom: 8%;
+  left: 20%;
+  z-index: 2;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  width: 60%;
+  height: 18%;
+  margin: auto;
+}
+
+.download-banner > img,
+.download-banner > p,
+.download-banner > div {
+  display: inline-block;
+}
+
+.download-banner > img {
+  margin: 4%;
+  width: 10%;
+}
+
+#download-in-progress {
+  margin: 0;
+  padding: 0;
+  font-size: 0.9em;
+}
+
+.download-logo-container {
+  height: 80%;
+  aspect-ratio: 1/1;
+  margin-right: 4%;
+}
+
+.download-logo {
+  display: block;
+  background-color: blue;
+  width: 100%;
+  height: 100%;
+}
+
+.download-logo g {
+  width: 0.11rem;
+}
+
+.video-container-mac {
+  position: absolute;
+  top: 11%;
+  left: 18%;
+  width: 62%;
+}
+
+.video-container-mac video {
+  width: 100%;
+}

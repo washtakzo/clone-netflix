@@ -1,0 +1,22 @@
+@font-face {
+  font-family: netflix-regular;
+  src: url("../fonts/netflix-sans-font/NetflixSans-Regular.otf");
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: netflix-regular, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

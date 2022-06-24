@@ -1,0 +1,45 @@
+.no-background {
+  background: none;
+}
+
+.mainstory {
+  padding: 75px 0;
+}
+
+.mainstory h1,
+.mainstory h2,
+.mainstory p {
+  text-align: center;
+  margin: auto;
+  color: white;
+}
+
+.mainstory h1 {
+  line-height: 1.1;
+  font-size: 3.125rem;
+  font-weight: bold;
+  max-width: 640px;
+}
+
+.mainstory h2 {
+  font-size: 1.625rem;
+  margin: 1rem auto;
+}
+
+.mainstory p {
+  margin: 0 auto;
+  padding: 0 10%;
+  font-size: 1.1rem;
+}
+
+.mainstory input[type="email"] {
+  display: block;
+  height: 3rem;
+  width: 85%;
+  margin: 0.6rem auto;
+}
+
+.mainstory input[type="email"]::placeholder {
+  font-size: 1rem;
+  padding-left: 0.4rem;
+}

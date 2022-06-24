@@ -1,0 +1,14 @@
+.box {
+  height: 2.2rem;
+  min-width: 7rem;
+  margin: 0 0.5rem;
+}
+
+.box button {
+  font-size: 1rem;
+}
+
+.box select {
+  font-family: netflix-regular;
+  font-size: 0.875rem;
+}

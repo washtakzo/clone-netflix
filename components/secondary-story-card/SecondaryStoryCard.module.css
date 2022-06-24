@@ -1,0 +1,31 @@
+.secondarystory {
+  position: relative;
+  /* background: #010100; */
+  z-index: 0;
+}
+
+.secondarystory h1,
+.secondarystory p {
+  color: white;
+  text-align: center;
+}
+
+.secondarystory h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.secondarystory p {
+  font-size: 1.25rem;
+  position: relative;
+  z-index: 1;
+}
+
+.secondarystory > div {
+  position: relative;
+  width: 90%;
+  bottom: 2%;
+  margin: auto;
+}

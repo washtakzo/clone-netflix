@@ -1,0 +1,66 @@
+.faqelement {
+  padding: 0;
+  color: red;
+}
+
+.faqelement > button {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background: rgb(48, 48, 48);
+}
+
+.faqelement > button > h3 {
+  display: inline-block;
+  margin: 0;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.faqelement > button > svg {
+  transform: rotate(-45deg);
+  fill: white;
+  width: 5%;
+}
+
+.opening-rotation {
+  animation: open-rotate 0.2s forwards;
+}
+
+.closing-rotation {
+  animation: close-rotate 0.2s forwards;
+}
+
+@keyframes open-rotate {
+  from {
+    transform: rotate(-45deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes close-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-45deg);
+  }
+}
+
+.text-container {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 24px;
+  background: rgb(48, 48, 48);
+  margin: auto;
+}
+
+#faq-answer {
+  margin: 0;
+  text-align: left;
+  white-space: pre-line;
+}
